@@ -5,7 +5,7 @@ layout: default
 
 ## About me
 <div class="image-cropper">
-  <img src="../images/404.jpg" class="profile-pic">
+  <img src="../images/me.png" class="profile-pic">
 </div>
 
 I am a research assistant at IIS Academia Sinica, advised by Prof. Tyng-Luh Liu and Prof. Hwann-Tzong Chen. 
