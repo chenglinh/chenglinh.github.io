@@ -947,21 +947,18 @@ Modules - reusable parts of our design
 /* Default styling for larger screens */
 
 
-// .image-cropper {
-//   width: 200px;
-//   height: 200px;
-//   overflow: hidden;
-//   border-radius: 50%;
-// }
+.image-cropper {
+  width: 40%;
+  height: 40%;
+  padding: 2.5%;
+}
 
 
 .profile-pic {
-  width: 300px;
-  height: 300px;
+  width: 100%;
   border-radius: 50%;
-  // overflow: hidden;
+  overflow: hidden;
   float: right;
-  padding: 15px;
 }
 
 /* Mobile styling */
