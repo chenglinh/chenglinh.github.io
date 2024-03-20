@@ -1142,20 +1142,21 @@ Modules - reusable parts of our design
 
 /* Default styling for larger screens */
 
-.image-cropper {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.profile-pic {
-  display: inline;
-  margin: 0 auto;
-  margin-left: -25%; //centers the image
-  height: 100%;
-  width: auto;
-}
+// .image-cropper {
+//   width: 100px;
+//   height: 100px;
+//   position: relative;
+//   overflow: hidden;
+  
+// }
+// .profile-pic {
+//   display: inline;
+//   margin: 0 auto;
+//   margin-left: -25%; //centers the image
+//   height: 100%;
+//   width: auto;
+//   border-radius: 50%;
+// }
 
 
 // .profile-pic-cropper {
@@ -1166,15 +1167,16 @@ Modules - reusable parts of our design
 //   border-radius: 50%;
 // }
 
-// .profile-pic {
-//   display: inline;
-//   margin: 0 auto;
-//   margin-left: 50%; //centers the image
-//   margin-right: 50%; //centers the image
-//   height: auto;
-//   width: 300px;
-//   padding: 15px;
-// }
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 50%; //centers the image
+  margin-right: 50%; //centers the image
+  height: auto;
+  width: 300px;
+  padding: 15px;
+  border-radius: 50%;
+}
 
 /* Mobile styling */
 @media only screen and (max-width: 768px) {
