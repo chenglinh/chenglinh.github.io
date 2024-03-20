@@ -16,7 +16,7 @@ Previously, I obtained my bachelor degree in Electrical Engineering at National 
 Next, I will join Prof. [Stella Yu](https://web.eecs.umich.edu/~stellayu/)'s group at UMich CSE as a Ph.D. student, starting 2024 Fall. 
 
 Nice to meet you!
-<br>Feel free to connect with me via clhsieh at umich dot edu.
+<br>Feel free to connect with me via **clhsieh at umich dot edu**.
 
 ---
 ## Research interests
