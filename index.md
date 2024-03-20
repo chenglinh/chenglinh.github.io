@@ -2,8 +2,7 @@
 layout: default
 ---
 # Cheng-Lin Hsieh 謝承霖
-
-<img src=="../images/404.jpg"  class="profile-pic">
+<img src=="../images/404.jpg" >
 asasasasa
 
 ## About me
