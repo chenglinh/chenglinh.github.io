@@ -4,9 +4,9 @@ layout: default
 # Cheng-Lin Hsieh 謝承霖
 
 ## About me
-<div class="image-cropper">
-    <img src="../images/me.png" class="profile-pic">
-</div>
+<!-- <div class="image-cropper"> -->
+<img src="../images/me.png" class="profile-pic">
+<!-- </div> -->
 
 
 I am a research assistant at Academia Sinica, advised by Prof. [Tyng-Luh Liu](https://homepage.iis.sinica.edu.tw/pages/liutyng/index_en.html) and Prof. [Hwann-Tzong Chen](https://htchen.github.io/). 
