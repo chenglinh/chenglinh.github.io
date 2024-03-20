@@ -4,9 +4,11 @@ layout: default
 # Cheng-Lin Hsieh 謝承霖
 
 ## About me
-<div class="image-cropper">
-  <img src="../images/me.png" class="profile-pic">
-</div>
+<!-- <div class="image-cropper">
+  
+</div> -->
+
+<img src="../images/me.png" class="profile-pic">
 
 I am a research assistant at IIS Academia Sinica, advised by Prof. Tyng-Luh Liu and Prof. Hwann-Tzong Chen. 
 
