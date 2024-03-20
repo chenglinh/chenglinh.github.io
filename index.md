@@ -3,10 +3,9 @@ layout: default
 ---
 # Cheng-Lin Hsieh 謝承霖
 
-<div class="profile-pic-cropper">
+<div class="image-cropper">
   <img src=="../images/404.jpg"  class="profile-pic">
 </div>
-
 
 I am a research assistant at IIS Academia Sinica, advised by Prof. Tyng-Luh Liu and Prof. Hwann-Tzong Chen. My research interests include Computer Vision, Machine Learning and Robotics.
 

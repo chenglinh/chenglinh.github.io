@@ -1142,24 +1142,39 @@ Modules - reusable parts of our design
 
 /* Default styling for larger screens */
 
-
-.profile-pic-cropper {
+.image-cropper {
   width: 100px;
   height: 100px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
 }
-
 .profile-pic {
   display: inline;
   margin: 0 auto;
-  margin-left: 50%; //centers the image
-  margin-right: 50%; //centers the image
-  height: auto;
-  width: 300px;
-  padding: 15px;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
 }
+
+
+// .profile-pic-cropper {
+//   width: 100px;
+//   height: 100px;
+//   position: relative;
+//   overflow: hidden;
+//   border-radius: 50%;
+// }
+
+// .profile-pic {
+//   display: inline;
+//   margin: 0 auto;
+//   margin-left: 50%; //centers the image
+//   margin-right: 50%; //centers the image
+//   height: auto;
+//   width: 300px;
+//   padding: 15px;
+// }
 
 /* Mobile styling */
 @media only screen and (max-width: 768px) {
