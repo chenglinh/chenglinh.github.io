@@ -1140,6 +1140,133 @@ Modules - reusable parts of our design
 }
 
 
+/* Default styling for larger screens */
+
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 50%; //centers the image
+  margin-right: 50%; //centers the image
+  height: auto;
+  width: 300px;
+  padding: 15px;
+}
+
+/* Mobile styling */
+@media only screen and (max-width: 768px) {
+  .profile-pic {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+}
+
+
+.right_figure {
+  width: 425px;
+  height: auto;
+  float: right;
+  padding: 15px;
+}
+
+/* Mobile styling */
+@media only screen and (max-width: 768px) {
+  .right_figure {
+    width: 100%;
+    height: auto;
+    float: right;
+    padding: 15px 0;
+  }
+}
+
+
+.left_figure {
+  width: 425px;
+  height: auto;
+  float: left;
+  padding: 15px;
+}
+
+/* Mobile styling */
+@media only screen and (max-width: 768px) {
+  .left_figure {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 15px 0;
+  }
+}
+
+
+/* Mobile-friendly layouts */
+.figure-container-horizontal-full,
+.figure-container-horizontal-shared,
+.figure-container-vertical-left,
+.figure-container-vertical-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.figure-container-vertical-left,
+.figure-container-vertical-right {
+  flex-direction: column;
+}
+
+.figure-container-vertical-left {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  width: 50%;
+}
+
+.figure-container-vertical-right {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  width: 50%;
+}
+
+
+.figure-container-horizontal-shared .figure{
+  width: 50%;
+  text-align: center;
+}
+
+.figure-container-horizontal-full .figure,
+.figure-container-vertical-left .figure,
+.figure-container-vertical-right .figure {
+  width: 100%;
+  text-align: center;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .figure-container-vertical-left,
+  .figure-container-vertical-right {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .figure-container-horizontal-shared .figure {
+    width: 100%;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
