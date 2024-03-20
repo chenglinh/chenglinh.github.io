@@ -2,10 +2,10 @@
 layout: default
 ---
 # Cheng-Lin Hsieh 謝承霖
-<img src=="../images/404.jpg" >
-asasasasa
 
 ## About me
+
+<img src="../images/404.jpg" class="profile-pic">
 I am a research assistant at IIS Academia Sinica, advised by Prof. Tyng-Luh Liu and Prof. Hwann-Tzong Chen. 
 
 Previously, I obtained my bachelor degree in Electrical Engineering at National Taiwan University, where I've had the privilege of collaborating with Prof. An-Yeu Wu and Prof. Yi-Chang Lu.
