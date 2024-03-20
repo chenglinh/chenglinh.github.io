@@ -10,7 +10,7 @@ layout: default
 
 I am a research assistant at IIS Academia Sinica, advised by Prof. Tyng-Luh Liu and Prof. Hwann-Tzong Chen. My research interests include Computer Vision, Machine Learning and Robotics.
 
-I obtained my bachelor degree in Electrical Engineering at National Taiwan University, where I've had the privilege of collaborating with Prof. An-Yeu Wu and Prof. Yi-Chang Lu.
+Previously, I obtained my bachelor degree in Electrical Engineering at National Taiwan University, where I've had the privilege of collaborating with Prof. An-Yeu Wu and Prof. Yi-Chang Lu.
 
 Next, I will join Prof. Stella Yu's group at UMich CSE as a Ph.D. student, starting 2024 Fall. 
 
