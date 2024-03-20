@@ -955,10 +955,12 @@ Modules - reusable parts of our design
 
 
 .profile-pic {
-  width: 100%;
+  width: 40%;
+  height: auto;
   border-radius: 50%;
   overflow: hidden;
   margin-top: 20%;
+  padding: 2.5%;
   float: right;
 }
 
