@@ -4,8 +4,10 @@ layout: default
 # Cheng-Lin Hsieh 謝承霖
 
 ## About me
+<div class="image-padding">
 <div class="image-cropper">
     <img src="../images/me.png" class="profile-pic">
+</div>
 </div>
 
 

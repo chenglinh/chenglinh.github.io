@@ -947,13 +947,17 @@ Modules - reusable parts of our design
 /* Default styling for larger screens */
 
 
+.image-padding {
+  float: right;
+  // padding: 30px ;
+}
+
 .image-cropper {
   width: 320px;
   height: 320px;
   border-radius: 50%;
   overflow: hidden;
-  float: right;
-  padding: 30px ;
+  
 }
 
 
@@ -968,6 +972,10 @@ Modules - reusable parts of our design
 
 /* Mobile styling */
 @media only screen and (max-width: 768px) {
+  .image-padding {
+    float: right;
+    padding: 15px 0px 15px 15px ;
+  }
   .image-cropper {
     width: 150px;
     height: 150px;
@@ -981,7 +989,7 @@ Modules - reusable parts of our design
     height: auto;
     margin: auto 0;
     margin-top: -40%;
-    padding: 15px ;
+    // padding: 15px ;
     // float: right;
   }
 }
