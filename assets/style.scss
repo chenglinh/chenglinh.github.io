@@ -948,19 +948,19 @@ Modules - reusable parts of our design
 
 
 .image-cropper {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   overflow: hidden;
   float: right;
-  padding: 15px 0;
+  padding: 10px ;
 }
 
 
 .profile-pic {
   width: 100%;
   height: auto;
-  margin: augo 0;
+  margin: auto 0;
   margin-top: -25%;
   // padding: 15px 0;
   // float: right;
@@ -978,8 +978,8 @@ Modules - reusable parts of our design
 //   .profile-pic {
 //     width: 100%;
 //     height: auto;
-//     float: right;
-//     padding: 2.5%;
+//     margin: auto 0;
+//     margin-top: -25%;
 //     // padding: 15px 0;
 //   }
 // }
