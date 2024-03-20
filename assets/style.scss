@@ -58,9 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  a {
-    color: gray;
-  }
+  color: gray;
 }
 
 h2 {
@@ -946,6 +944,17 @@ Modules - reusable parts of our design
 }
 
 /* Default styling for larger screens */
+
+
+.image-cropper {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
 .profile-pic {
   width: 300px;
   height: auto;
@@ -955,6 +964,13 @@ Modules - reusable parts of our design
 
 /* Mobile styling */
 @media only screen and (max-width: 768px) {
+  .image-cropper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
   .profile-pic {
     width: 100%;
     height: auto;
