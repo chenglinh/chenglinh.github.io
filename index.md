@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Cheng-Lin Hsieh 謝承霖
+# Stanley Cheng-Lin Hsieh 謝承霖
 
 ## About me
 <div class="image-padding">
@@ -10,12 +10,9 @@ layout: default
 </div>
 </div>
 
+I am a Ph.D. student at UMich CSE working with Prof. [Stella Yu](https://web.eecs.umich.edu/~stellayu/).
 
-I am a research assistant at Academia Sinica, advised by Prof. [Tyng-Luh Liu](https://homepage.iis.sinica.edu.tw/pages/liutyng/index_en.html) and Prof. [Hwann-Tzong Chen](https://htchen.github.io/). 
-
-Previously, I obtained my bachelor degree in Electrical Engineering at National Taiwan University, where I've had the privilege of collaborating with Prof. [An-Yeu Wu](https://access.ee.ntu.edu.tw/) and Prof. [Yi-Chang Lu](https://sites.google.com/view/ldps-giee-ntu/home/advisor).
-
-Next, I will join Prof. [Stella Yu](https://web.eecs.umich.edu/~stellayu/)'s group at UMich CSE as a Ph.D. student, starting in Fall 2024. 
+I obtained my bachelor degree in Electrical Engineering at National Taiwan University. After that, I spent a wonderful year at Academia Sinica, where I conducted research with Prof. [Tyng-Luh Liu](https://homepage.iis.sinica.edu.tw/pages/liutyng/index_en.html) and Prof. [Hwann-Tzong Chen](https://htchen.github.io/). 
 
 Feel free to connect with me via **clhsieh at umich dot edu**.
 
@@ -24,4 +21,4 @@ Feel free to connect with me via **clhsieh at umich dot edu**.
 My research interests include Computer Vision, Machine Learning and Robotics.
 
 ---
-the website is based on [Reverie](https://reverie.pages.dev)
+Last update: 01/28/2025
