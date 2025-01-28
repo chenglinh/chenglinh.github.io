@@ -10,7 +10,7 @@ layout: default
 </div>
 </div>
 
-I am a Ph.D. student at UMich CSE working with Prof. [Stella Yu](https://web.eecs.umich.edu/~stellayu/).
+I am a Ph.D. student at the University of Michigan, Ann Arbor, working with Prof. [Stella Yu](https://web.eecs.umich.edu/~stellayu/).
 
 I obtained my bachelor degree in Electrical Engineering at National Taiwan University. After that, I spent a wonderful year at Academia Sinica, where I conducted research with Prof. [Tyng-Luh Liu](https://homepage.iis.sinica.edu.tw/pages/liutyng/index_en.html) and Prof. [Hwann-Tzong Chen](https://htchen.github.io/). 
 
