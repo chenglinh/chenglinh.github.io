@@ -16,24 +16,32 @@
 <header class="topbar"><a class="wordmark" href="#">Cheng-Lin (Stanley) Hsieh</a><nav aria-label="Main navigation"><a href="#selected">Selected research</a><a href="#publications">Other publications</a><a href="#contact">Contact</a></nav></header>
 <main id="main">
 <section class="hero" aria-labelledby="intro-title">
-<div><p class="eyebrow">UNIVERSITY OF MICHIGAN · COMPUTER SCIENCE &amp; ENGINEERING</p><h1 id="intro-title"><span>Cheng-Lin (Stanley) Hsieh</span><span class="name-cn" lang="zh-Hant">謝承霖</span></h1><p class="tagline">Robot learning &amp;<br>visual perception.</p>
-<p class="intro">I’m a Ph.D. candidate at the University of Michigan, advised by <a href="https://web.eecs.umich.edu/~stellayu/">Stella X. Yu</a>. I work on visual perception and robot learning: understanding motion in images and helping humanoid robots move in the real world.</p>
-<p class="intro">My research spans dense visual correspondence and humanoid control, including hands-on work with the Unitree G1.</p>
+<div><h1 id="intro-title"><span>Cheng-Lin (Stanley) Hsieh</span><span class="name-cn" lang="zh-Hant">謝承霖</span></h1>
+<p class="intro">I’m a Ph.D. candidate at the University of Michigan, advised by <a href="https://web.eecs.umich.edu/~stellayu/">Stella X. Yu</a>. I study visual correspondence and robot learning, with hands-on experience on the Unitree G1.</p>
 <div class="contact"><a href="mailto:clhsieh@umich.edu">Email ↗</a><a href="https://github.com/chenglinh">GitHub ↗</a></div></div>
 <figure class="portrait"><img src="images/cheng-lin-hsieh.jpg" alt="Portrait of Cheng-Lin Hsieh" width="2901" height="2901"></figure>
 </section>
-<aside class="availability"><span class="availability-dot" aria-hidden="true"></span><div><strong>Seeking summer 2027 research internships</strong><p>Robotics, robot learning, and computer vision / perception. <a href="mailto:clhsieh@umich.edu">Let’s connect.</a></p></div></aside>
-<section id="selected" class="section"><div class="section-heading"><p class="eyebrow">01 / RESEARCH</p><h2>Selected publications<br>and research</h2></div><p class="section-note">* Equal contribution. Manuscript status is shown for each project.</p>
-<article class="research-card"><div class="research-index">01</div><div><p class="badge">NeurIPS 2026</p><h3>Dense Flow from Adaptive Correspondence</h3><p class="authors"><strong>Cheng-Lin Hsieh</strong> and Stella X. Yu</p><p>We learn how to group pixels and match those groups together, rather than fixing the matching units in advance. This helps estimate motion across images and generalize to new scenes.</p></div></article>
-<article class="research-card"><div class="research-index">02</div><div><p class="badge neutral">Under review</p><h3>Test-Time Motion Steering for Perceptive Humanoid Fall Recovery</h3><p class="authors">Osher Azulay*, <strong>Cheng-Lin Hsieh*</strong>, and Stella X. Yu</p><p>Getting back up is more useful when a robot can choose how and where it rises. We steer a learned motion plan at test time, helping a real Unitree G1 recover with a desired heading or route while responding to its surroundings.</p><a class="text-link" href="https://osheraz.github.io/steerable-recovery/">Project page ↗</a></div></article>
+<p class="availability">Seeking summer 2027 research internships in robotics and computer vision. <a href="mailto:clhsieh@umich.edu">Get in touch ↗</a></p>
+<section id="selected" class="section" aria-labelledby="research-title">
+<div class="section-heading"><h2 id="research-title">Selected research</h2><p class="section-note">* Equal contribution</p></div>
+<article class="research-card">
+<figure class="project-media"><a href="assets/teasers/dense-flow-figure-2a.png" aria-label="View Dense Flow Figure 2a at full size"><img src="assets/teasers/dense-flow-figure-2a.png" alt="Figure 2a compares coarse, fine, and adaptive matching units. Adaptive units preserve motion boundaries while remaining robust when matches are missing." width="1500" height="867" loading="lazy"></a></figure>
+<div><p class="badge">NeurIPS 2026</p><h3>Dense Flow from Adaptive Correspondence</h3><p class="authors"><strong>Cheng-Lin Hsieh</strong> and Stella X. Yu</p><p>We show that learning what to match is as important as learning how to match. Our adaptive units follow coherent motion and preserve fine boundaries, making optical flow both precise and robust—even where a match is hidden or outside the image.</p>
+<div class="project-links" aria-label="Dense Flow resources"><span>arXiv <small>Coming soon</small></span><span>Code <small>Coming soon</small></span><span>Project page <small>Coming soon</small></span></div></div>
+</article>
+<article class="research-card">
+<figure class="project-media"><video controls muted loop playsinline preload="metadata" poster="assets/teasers/fall-recovery.jpg" width="780" height="423" aria-label="A real Unitree G1 performs guided fall recovery on raised terrain"><source src="assets/teasers/fall-recovery.mp4" type="video/mp4">Your browser does not support video. <a href="assets/teasers/fall-recovery.mp4">Watch the recovery demo</a>.</video><figcaption>Real Unitree G1 · Video by <a href="https://osheraz.github.io/">Osher Azulay</a></figcaption></figure>
+<div><p class="badge neutral">Under review</p><h3>Test-Time Motion Steering for Perceptive Humanoid Fall Recovery</h3><p class="authors">Osher Azulay*, <strong>Cheng-Lin Hsieh*</strong>, and Stella X. Yu</p><p>We turn getting back up into a behavior the robot can adapt and steer. A visual diffusion model lets us guide heading, timing, and route at test time, while a depth-aware controller carries out the recovery on a real Unitree G1.</p>
+<div class="project-links" aria-label="Fall Recovery resources"><span>arXiv <small>Coming soon</small></span><span>Code <small>Coming soon</small></span><a href="https://osheraz.github.io/steerable-recovery/">Project page ↗</a></div></div>
+</article>
 </section>
-<section id="publications" class="section"><div class="section-heading"><p class="eyebrow">02 / PUBLICATIONS</p><h2>Other publications</h2></div>
+<section id="publications" class="section"><div class="section-heading"><h2>Other publications</h2></div>
 <ol class="publication-list">
 <li><h3><a href="https://neurips.cc/virtual/2026/173726">Where to Hitch? Finding Small Parts Across Long Spatiotemporal Contexts ↗</a></h3><p><strong>C.-L. Hsieh*</strong>, Z. Wang*, S. X. Yu, E. Corona, S. Sasidharan, and E. D. Sumer.</p><p class="venue">NeurIPS Workshop on Long-Context Foundation Models (LCFM), 2026.</p><p>Finding a tiny part in a long video can be surprisingly difficult. HitchIt chooses useful views and tracks visual examples to locate parts such as trailer hitches without task-specific training.</p></li>
 <li><h3><a href="https://doi.org/10.1109/JIOT.2024.3514661">EECS: Efficient End-Cloud Collaborative System with On-Demand Offloading Mechanism for Convolutional Neural Network ↗</a></h3><p>Y.-C. Lo, <strong>C.-L. Hsieh</strong>, H.-W. Chiang, and A.-Y. A. Wu.</p><p class="venue">IEEE Internet of Things Journal, 12(8):11081–11095, 2025.</p></li>
 <li><h3>Trainable Policy for the On-Demand Offloading on Edge-Cloud Collaborative System</h3><p><strong>C.-L. Hsieh</strong>, Y.-C. Lo, and A.-Y. A. Wu.</p><p class="venue">IEEE International Workshop on Machine Learning for Signal Processing (MLSP), 2023.</p></li>
 <li><h3>Constraints-Aware Trainable Pruning with System Optimization for the On-Demand Offloading Edge-Cloud Collaborative System</h3><p>Y.-C. Lo, <strong>C.-L. Hsieh</strong>, and A.-Y. A. Wu.</p><p class="venue">IEEE International Workshop on Machine Learning for Signal Processing (MLSP), 2023.</p></li>
 </ol></section>
-<section id="contact" class="section cv-section"><p class="eyebrow">03 / GET IN TOUCH</p><h2>Get in touch.</h2><p>I’m always happy to talk about vision, robots, and research.</p><a class="email-link" href="mailto:clhsieh@umich.edu">clhsieh@umich.edu</a></section>
+<section id="contact" class="section contact-section"><h2>Get in touch.</h2><p>I’m always happy to talk about vision, robots, and research.</p><a class="email-link" href="mailto:clhsieh@umich.edu">clhsieh@umich.edu</a></section>
 </main><footer><span>Cheng-Lin (Stanley) Hsieh · University of Michigan</span><span>Updated October 16, 2026</span></footer>
 </body></html>
